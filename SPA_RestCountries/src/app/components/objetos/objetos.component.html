@@ -1,0 +1,33 @@
+<h1>Objetos</h1>
+<hr>
+
+<br>
+
+<!-- <button type="button" 
+        class="btn btn-dark"
+        (click)="showDatos()">
+          Show datos
+      </button> -->
+
+<br>
+
+<div class="card-columns">
+
+  <div class="card" *ngFor="let dato of datos; let i = index">
+    <img [src]="dato.flag" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">{{dato.name}} - {{dato.alpha3Code}}</h5>
+      <p class="card-text">{{dato.region}}</p>
+      <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+
+      
+      <button type="button" 
+      (click)="showObject(dato.alpha3Code)"
+      class="btn btn-primary btn-block">
+        Ver más...
+      </button>
+
+    </div>
+  </div>
+
+</div>

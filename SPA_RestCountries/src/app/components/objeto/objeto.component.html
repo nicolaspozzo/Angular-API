@@ -1,0 +1,27 @@
+
+<h1>{{objeto.name}}</h1>
+<hr>
+
+<div class="row">
+    <div class="col-4">
+            <img [src]="objeto.flag" alt="">
+        <br>
+        <br>
+      
+        <button type="button"
+        class="btn btn-danger btn-block"
+        (click)="backTo()">
+        Regresar
+    </button>
+    </div>
+
+    <div class="col-8">
+        <h1>Region</h1>
+        <br>
+        {{objeto.region}}
+        <br><br>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+        Accusantium ducimus, quis iste autem illo totam dignissimos nemo officia 
+        impedit porro excepturi minus nulla neque quos, maiores non laudantium voluptatem tenetur.
+    </div>
+</div>
