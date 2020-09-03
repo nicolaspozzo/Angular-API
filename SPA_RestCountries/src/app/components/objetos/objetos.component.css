@@ -1,6 +1,4 @@
 
-
-.card {
-    border: 2px solid white;
-    color:black;
+.card-columns {
+    column-count: 4;
 }

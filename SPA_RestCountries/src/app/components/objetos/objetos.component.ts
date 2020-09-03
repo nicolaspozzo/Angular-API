@@ -32,8 +32,8 @@ export class ObjetosComponent implements OnInit {
     })
   }
 
-  showObject(code:string){
-    this.router.navigate(['/objeto',code]);
-  }
+  // showObject(code:string){
+  //   this.router.navigate(['/objeto',code]);
+  // }
 
 }

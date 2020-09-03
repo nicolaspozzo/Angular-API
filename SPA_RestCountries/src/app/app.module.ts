@@ -12,6 +12,7 @@ import { DataService } from "./services/data.service";
 
 import { HttpClientModule } from "@angular/common/http";
 import { ObjetoComponent } from './components/objeto/objeto.component';
+import { ObjetoCardComponent } from './components/objeto-card/objeto-card.component';
 
 
 
@@ -22,7 +23,8 @@ import { ObjetoComponent } from './components/objeto/objeto.component';
     HomeComponent,
     ObjetosComponent,
     AboutComponent,
-    ObjetoComponent
+    ObjetoComponent,
+    ObjetoCardComponent
   ],
   imports: [
     BrowserModule,

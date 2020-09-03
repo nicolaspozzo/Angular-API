@@ -5,21 +5,7 @@
 
 <div class="card-columns">
 
-  <div class="card" *ngFor="let dato of datos; let i = index">
-    <img [src]="dato.flag" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">{{dato.name}} - {{dato.alpha3Code}}</h5>
-      <p class="card-text">{{dato.region}}</p>
-      <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
-
-      
-      <button type="button" 
-      (click)="showObject(dato.alpha3Code)"
-      class="btn btn-outline-primary btn-block">
-        Ver más...
-      </button>
-
-    </div>
-  </div>
+  <app-objeto-card [objeto]="dato"
+  *ngFor="let dato of datos; let i = index"></app-objeto-card>
 
 </div>

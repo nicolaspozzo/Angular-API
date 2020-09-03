@@ -1,0 +1,9 @@
+
+.card {
+    border: 2px solid white;
+    color:black;
+}
+
+.card-text{
+    text-align: justify;
+}

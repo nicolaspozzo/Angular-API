@@ -1,0 +1,16 @@
+<div class="card" >
+    <img [src]="objeto.flag" class="card-img-top" alt="...">
+    <div class="card-body">
+        <h5 class="card-title">{{objeto.name}} - {{objeto.alpha3Code}}</h5>
+        <p class="card-text">{{objeto.region}}</p>
+        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+            Repellat exercitationem vitae eveniet cupiditate deserunt. 
+        </p> 
+            
+
+        <button type="button" (click)="showObject(objeto.alpha3Code)" class="btn btn-outline-primary btn-block">
+            Ver más...
+        </button>
+
+    </div>
+</div>
